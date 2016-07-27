@@ -95,7 +95,17 @@ $gutter: 1em;
     li:last-of-type a {
       border-bottom: none;
     }
-  }   
+  } 
+  
+  .grid-gutters {
+    .grid-nested {
+      .grid-cell:first-of-type {
+        .content {
+          margin-right: 0;
+        }
+      }
+    }
+  }  
 }
 
 
@@ -171,15 +181,6 @@ $gutter: 1em;
   }
   .grid-one-third > .grid-cell:first-of-type {
     flex: 0 0 100%;
-  }
-  .grid-gutters {
-    .grid-nested {
-      .grid-cell:first-of-type {
-        .content {
-          margin-right: 0;
-        }
-      }
-    }
   }
 }
 
