@@ -204,10 +204,15 @@
   .grid-one-third > .grid-cell:first-of-type {
     flex: 0 0 100%;
   }
+
+  /* line 178, sass/_grid.scss */
+  .grid-gutters .grid-nested .grid-cell:first-of-type .content {
+    margin-right: 0;
+  }
 }
 /* Large screens */
 @media (min-width: 48em) {
-  /* line 183, sass/_grid.scss */
+  /* line 192, sass/_grid.scss */
   .grid-cols-2 > .grid-cell,
   .grid-cols-3 > .grid-cell,
   .grid-cols-4 > .grid-cell,
@@ -216,48 +221,48 @@
     flex: 1;
   }
 
-  /* line 187, sass/_grid.scss */
+  /* line 196, sass/_grid.scss */
   .grid-aside .main {
     flex: 2;
   }
-  /* line 188, sass/_grid.scss */
+  /* line 197, sass/_grid.scss */
   .grid-aside .aside {
     flex: 1;
   }
-  /* line 189, sass/_grid.scss */
+  /* line 198, sass/_grid.scss */
   .grid-aside .aside-1 {
     order: 1;
   }
-  /* line 190, sass/_grid.scss */
+  /* line 199, sass/_grid.scss */
   .grid-aside .main {
     order: 2;
   }
-  /* line 191, sass/_grid.scss */
+  /* line 200, sass/_grid.scss */
   .grid-aside .aside-2 {
     order: 3;
   }
 
-  /* line 193, sass/_grid.scss */
+  /* line 202, sass/_grid.scss */
   .grid-one-half > .grid-cell {
     flex: 0 0 50%;
   }
 
-  /* line 196, sass/_grid.scss */
+  /* line 205, sass/_grid.scss */
   .grid-one-sixth > .grid-cell:first-of-type {
     flex: 0 0 16.6666%;
   }
 
-  /* line 199, sass/_grid.scss */
+  /* line 208, sass/_grid.scss */
   .grid-one-fourth > .grid-cell:first-of-type {
     flex: 0 0 25%;
   }
 
-  /* line 202, sass/_grid.scss */
+  /* line 211, sass/_grid.scss */
   .grid-one-third > .grid-cell:first-of-type {
     flex: 0 0 30%;
   }
 
-  /* line 207, sass/_grid.scss */
+  /* line 216, sass/_grid.scss */
   .grid-gutters.grid-nested .grid-cell:first-of-type .content {
     margin-right: 0;
   }
