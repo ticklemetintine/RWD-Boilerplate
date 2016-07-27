@@ -57,3 +57,5 @@ OTHER GRID CLASSES
 - .grid-left:		horizontal align left
 - .grid-center:		horizontal align center
 
+
+DEMO HERE <a href="https://rawgit.com/ticklemetintine/RWD-Boilerplate/master/index.html"></a>
