@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Flexbox responsive Grid</title>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta name="author" content="">
+    <meta name="rights" content="" />
+    <!-- STYLE IMPORTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="theme/styles/master.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>Header Page Layout</h1>
+            <section class="grid grid-full">
+                <div class="grid-cell">
+                    <div class="content header-layout">
+                        <img src="http://placehold.it/100x50&text=Logo" style="vertical-align: middle;"><strong> Header / Logo</strong>
+                    </div>
+                </div>
+            </section>
+            <section class="grid grid-full">
+                <div class="grid-cell">
+                    <ul class="navigation">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </header>
+    <div class="wrapper">
+        <h1>Basic grid</h1>
+        <section class="grid grid-full">
+            <div class="grid-cell">
+                <div class="content content-one"></div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-cols-2">
+            <div class="grid-cell">
+                <div class="content content-one-half"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-half"></div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-cols-3">
+            <div class="grid-cell">
+                <div class="content content-one-third"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-third"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-third"></div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-cols-4">
+            <div class="grid-cell">
+                <div class="content content-one-fourth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-fourth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-fourth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-fourth"></div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-cols-6">
+            <div class="grid-cell">
+                <div class="content content-one-sixth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-sixth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-sixth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-sixth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-sixth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-sixth"></div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-cols-12">
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content content-one-twelveth"></div>
+            </div>
+        </section>
+        <hr />
+        <h1>Sidebar and main content</h1>
+        <section class="grid grid-gutters grid-one-sixth">
+            <div class="grid-cell">
+                <div class="content content-one-sixth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">auto</div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-one-fourth">
+            <div class="grid-cell">
+                <div class="content content-one-fourth"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">auto</div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-one-third">
+            <div class="grid-cell">
+                <div class="content content-one-third"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">auto</div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-one-half">
+            <div class="grid-cell">
+                <div class="content content-one-half"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">auto</div>
+            </div>
+        </section>
+        <hr />
+        <h1>Left / Center / Right content alignment</h1>
+        <section class="grid grid-gutters grid-one-half">
+            <div class="grid-cell">
+                <div class="content content-one-half"></div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-one-half grid-center">
+            <div class="grid-cell">
+                <div class="content content-one-half"></div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-one-half grid-right">
+            <div class="grid-cell">
+                <div class="content content-one-half"></div>
+            </div>
+        </section>
+        <hr />
+        <h1>Nesting</h1>
+        <section class="grid grid-gutters grid-one-third grid-nested">
+            <div class="grid-cell">
+                <div class="content content-one-third"></div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">
+                    <div class="grid grid-gutters grid-one-third grid-nested">
+                        <div class="grid-cell">
+                            <div class="content content-one-third"></div>
+                        </div>
+                        <div class="grid-cell">
+                            <div class="content">
+                                <div class="grid grid-gutters grid-one-third grid-nested">
+                                    <div class="grid-cell">
+                                        <div class="content content-one-third"></div>
+                                    </div>
+                                    <div class="grid-cell">
+                                        <div class="content">auto</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <h1>Vertical alignment</h1>
+        <section class="grid grid-gutters grid-cols-3 grid-top">
+            <div class="grid-cell">
+                <div class="content">
+                    <p><strong>top-aligned</strong>.</p>
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sint quas numquam quasi iusto quidem at deleniti culpa dolore animi totam et</p>
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque recusandae sequi facilis asperiores, laudantium sed ad tenetur deserunt. Eaque, illum iusto placeat distinctio assumenda repudiandae laboriosam id molestiae unde veniam!</p>
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-cols-3 grid-center">
+            <div class="grid-cell">
+                <div class="content">
+                    <p><strong>center-aligned</strong>.</p>
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, odio. Accusantium incidunt quibusdam quam ex magnam! Velit eligendi voluptatem tempore perferendis officia.</p>
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, soluta sapiente quos dolor, ab blanditiis? Unde sequi voluptatibus ducimus voluptatem quae temporibus odit omnis, quaerat, harum nostrum sed corrupti voluptatum.</p>
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-gutters grid-cols-3 grid-bottom">
+            <div class="grid-cell">
+                <div class="content">
+                    <p><strong>bottom-aligned</strong>.</p>
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat blanditiis molestiae, modi cupiditate culpa in non! Molestias error</p>
+                </div>
+            </div>
+            <div class="grid-cell">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod dolore ea error, cumque beatae iste assumenda recusandae vitae itaque tempore corrupti doloremque nulla vero placeat quasi nam repudiandae consequatur asperiores.</p>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section class="grid grid-gutters grid-aside">
+            <div class="grid-cell main">
+                <div class="content header-layout">
+                    <p><strong>Main</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam est consectetur quidem, unde eum cupiditate qui mollitia soluta culpa, eligendi quibusdam nulla id a animi consequatur natus voluptas neque porro! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nihil est a eos, placeat quibusdam fugit odit laudantium minima, unde iste voluptatibus cumque libero repellat asperiores neque provident eaque nesciunt.</p>
+                </div>
+            </div>
+            <div class="grid-cell aside aside-1">
+                <div class="content header-layout">
+                    <p><strong>Aside 1</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum est impedit ipsum veritatis repudiandae voluptas itaque optio distinctio maxime odio at quae id ducimus, neque voluptatem sit animi labore fugiat!</p>
+                </div>
+            </div>
+            <div class="grid-cell aside aside-2">
+                <div class="content header-layout">
+                    <p><strong>Aside 2</strong></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas eius ad omnis blanditiis laborum cumque laudantium quae accusantium ea pariatur fuga facere in eos qui quas deserunt, incidunt sed error!</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="wrapper">
+            <div class="grid grid-full">
+                <div class="grid-cell">
+                    <div class="content header-layout">
+                        <p><strong>Footer</strong></p>
+                        <p>Copyright &copy; Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- SCRIPT IMPORTS -->
+<script src="theme/scripts/vendor/jquery.min.js"></script>
+<script src="theme/scripts/master.js"></script>
+
+</html>

@@ -1,0 +1,19 @@
+body {
+	font-family: $font-primary;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  //border: 1px solid red;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.3em;}
+
+p {
+	margin-top: 0;
+	font-size: 1em;
+}
