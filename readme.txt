@@ -2,12 +2,12 @@ Thanks to https://codepen.io/irinakramer/
 
 This boilerplate includes standard folder and file structures. Styles used were made using Sass. All changes MUST only be done on theme/styles/sass folder. Use Sass compilers like Gulp or Scout(Application for Mac)
 
-NOTE: PLEASE DO NOT MAKE ANY CHANGES ON THE main.css and sass/_grid.scss FILES.
+NOTE: PLEASE DO NOT MAKE ANY CHANGES ON main.css and sass/_grid.scss FILES.
 
 - All dev styles should be placed on _custom.scss
 - Place all utility/reusable classes on _utilities.scss
 - Declare all variables on _varibles.scss
-- Styles on _global.scss are used on ALL pages. Update with caution.s
+- Styles on _global.scss are used on ALL pages. Update with caution.
 
 - All media queries must be placed on _mediaqueries.scss
 	- max 1024px - for ipad landscape / smaller desktop view
